@@ -1,0 +1,75 @@
+/* Reset das margens e preenchimentos padrão */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonte e cor padrão */
+body, p, ul, ol, li {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilo do link */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Efeito de hover no link */
+a:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+  .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background: #07292c;
+  }
+  .icon i {
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+  }
+  .offset {
+    margin-left: 1%;
+    margin-bottom: 1%;
+  }
+  .coluna {
+    width: 24.3%;
+  }
+  @media screen and (max-width: 768px) {
+    .coluna {
+      width: 100%;
+    }
+  }
+  h1 {
+    color: #07292c;
+  }
+  h2 {
+    color: #0077cc;
+  }

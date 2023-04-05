@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import-normalize; /* bring in normalize.css styles */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+ audio,
+ video {
+   display: inline-block;
+ }
+ 
+ /**
+  * Remove the border on images inside links in IE 10-.
+  */
+ 
+ img {
+   border-style: none;
+ }
