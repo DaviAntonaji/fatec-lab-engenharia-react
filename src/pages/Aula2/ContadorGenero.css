@@ -1,0 +1,51 @@
+.contador-genero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contador-genero-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .contador-genero-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+  }
+  
+  .contador-genero-icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .homem-icon {
+    background-color: #2196f3;
+  }
+  
+  .mulher-icon {
+    background-color: #f44336;
+  }
+  
+  .contador-genero-titulo {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #contador-total-input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 8rem;
+    text-align: center;
+  }
+  

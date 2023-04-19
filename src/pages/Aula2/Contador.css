@@ -1,0 +1,62 @@
+.contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contador label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contador-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contador input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    width: 4rem;
+    text-align: center;
+  }
+  
+  .contador-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .contador-button-increment,
+  .contador-button-decrement {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contador-button-increment {
+    background-color: green;
+  }
+  
+  .contador-button-decrement {
+    background-color: red;
+  }
+  
+  .contador-button-increment:hover {
+    background-color: #006400;
+  }
+  
+  .contador-button-decrement:hover {
+    background-color: #8b0000;
+  }
