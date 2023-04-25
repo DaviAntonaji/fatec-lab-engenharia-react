@@ -8,18 +8,24 @@ function Home() {
       <h2>Davi de Melo Antonaji</h2>
       <div className="row">
         <div className="offset icon-box">
-          <h3 className="title">Aula 1</h3>
+          <h3 className="title">Aula 2</h3>
           <div>
-            <Link to="/aula1/atividade1">Atividade 1: Relógio</Link>
+            <Link to="/aula2/atividade1">Atividade 1: Relógio</Link>
           </div>
           <div>
-            <Link to="/aula1/atividade2">Atividade 2: Letreiro</Link>
+            <Link to="/aula2/atividade2">Atividade 2: Letreiro</Link>
           </div>
         </div>
         <div className="offset icon-box">
-          <h3 className="title">Aula 2</h3>
+          <h3 className="title">Aula 3</h3>
           <div>
-            <Link to="/aula2/atividade1">Atividade 1: Contador de Generos</Link>
+            <Link to="/aula3/atividade1">Atividade 1: Contador de Generos</Link>
+          </div>
+        </div>
+        <div className="offset icon-box">
+          <h3 className="title">Aula 4</h3>
+          <div>
+            <Link to="/aula4/atividade1">Atividade 1: Galeria</Link>
           </div>
         </div>
       </div>

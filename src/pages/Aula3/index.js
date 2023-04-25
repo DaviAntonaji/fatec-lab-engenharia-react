@@ -13,7 +13,6 @@ const ContadorGenero = () => {
         value = 0;
     }
     setHomens(value);
-    console.log("Mulheres", mulheres, "Homens", value);
     setTotal(value + mulheres);
   };
 
@@ -22,7 +21,6 @@ const ContadorGenero = () => {
         value = 0;
     }
     setMulheres(value);
-    console.log("Mulheres", mulheres, "Homens", homens);
     setTotal(homens + value);
   };
   const reset = () => {
