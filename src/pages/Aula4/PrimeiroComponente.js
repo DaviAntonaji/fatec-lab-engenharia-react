@@ -1,19 +1,28 @@
-export function Profile () {
+import Avatar from "./Avatar";
+
+
+function Card({children}) {
     return (
-        <div>
-            <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson"/>
-        </div>
+    <div className="card">
+        {children}
+    </div>
     );
 }
 
+export function Profile() {
+    return (
+        <Card>
+            <Avatar person={{ name: "Katsuko Saruhashi", imageId: "YfeOqp2" }}/>
+        </Card>
+    );
+  
+}
 
 export default function Gallery() {
-    return (
-        <section>
-            <h1>Amazing scientits</h1>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-        </section>
-    )
+  return (
+    <section>
+      <h1>Amazing scientits</h1>
+      <Profile />
+    </section>
+  );
 }
