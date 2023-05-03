@@ -62,6 +62,15 @@ function Home() {
           <div>
             <Link to="/aula5/atividade7">Atividade 7: Form 3</Link>
           </div>
+          <div>
+            <Link to="/aula5/atividade8">Atividade 8: Lista dinamica</Link>
+          </div>
+          <div>
+            <Link to="/aula5/atividade9">Atividade 9: Lista 2</Link>
+          </div>
+          <div>
+            <Link to="/aula5/atividade10">Atividade 10: Shape Editor</Link>
+          </div>
         </div>
       </div>
     </div>

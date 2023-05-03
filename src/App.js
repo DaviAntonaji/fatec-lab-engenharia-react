@@ -17,6 +17,9 @@ import CounterAula5 from "./pages/Aula5/Counter";
 import MovingDot from "./pages/Aula5/MovingDot";
 import Form2 from "./pages/Aula5/Form2";
 import Form3 from "./pages/Aula5/Form3";
+import ListAula5 from "./pages/Aula5/List";
+import List2Aula5 from "./pages/Aula5/List2";
+import ShapeEditor from "./pages/Aula5/ShapeEditor";
 
 function App() {
   return (
@@ -42,6 +45,9 @@ function App() {
         <Route path="/aula5/atividade5" element={<MovingDot />} />
         <Route path="/aula5/atividade6" element={<Form2 />} />
         <Route path="/aula5/atividade7" element={<Form3 />} />
+        <Route path="/aula5/atividade8" element={<ListAula5 />} />
+        <Route path="/aula5/atividade9" element={<List2Aula5 />} />
+        <Route path="/aula5/atividade10" element={<ShapeEditor />} />
       </Routes>
     </BrowserRouter>
   );
