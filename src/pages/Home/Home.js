@@ -10,7 +10,7 @@ function Home() {
       <h2>Davi de Melo Antonaji</h2>
       <div className="row">
         <div className="offset icon-box">
-          <h3 className="title">Aula 2</h3>
+          <h3 className="title">Atividade 1 - Aula 2</h3>
           <div>
             <Link to="/aula2/atividade1">Atividade 1: Relógio</Link>
           </div>
@@ -19,13 +19,13 @@ function Home() {
           </div>
         </div>
         <div className="offset icon-box">
-          <h3 className="title">Aula 3</h3>
+          <h3 className="title">Atividade 2 - Aula 3</h3>
           <div>
             <Link to="/aula3/atividade1">Atividade 1: Contador de Generos</Link>
           </div>
         </div>
         <div className="offset icon-box">
-          <h3 className="title">Aula 4</h3>
+          <h3 className="title">Atividade 3 - Aula 4</h3>
           <div>
             <Link to="/aula4/atividade1">Atividade 1: Galeria</Link>
           </div>
@@ -40,7 +40,7 @@ function Home() {
           </div>
         </div>
         <div className="offset icon-box">
-          <h3 className="title">Aula 5</h3>
+          <h3 className="title">Atividade 4 - Aula 5</h3>
           <div>
             <Link to="/aula5/atividade1">Atividade 1: Toolbar</Link>
           </div>
@@ -70,6 +70,18 @@ function Home() {
           </div>
           <div>
             <Link to="/aula5/atividade10">Atividade 10: Shape Editor</Link>
+          </div>
+          <div>
+            <Link to="/aula5/atividade11">Atividade 11: Counter List</Link>
+          </div>
+          <div>
+            <Link to="/aula5/atividade12">Atividade 12: List 3</Link>
+          </div>
+          <div>
+            <Link to="/aula5/atividade13">Atividade 13: List 4</Link>
+          </div>
+          <div>
+            <Link to="/aula5/atividade14">Atividade 14: BucketList</Link>
           </div>
         </div>
       </div>

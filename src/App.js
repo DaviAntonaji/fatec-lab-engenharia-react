@@ -20,6 +20,10 @@ import Form3 from "./pages/Aula5/Form3";
 import ListAula5 from "./pages/Aula5/List";
 import List2Aula5 from "./pages/Aula5/List2";
 import ShapeEditor from "./pages/Aula5/ShapeEditor";
+import List3Aula5 from "./pages/Aula5/List3";
+import CounterList from "./pages/Aula5/CounterList";
+import List4Aula5 from "./pages/Aula5/List4";
+import BucketList from "./pages/Aula5/BucketList";
 
 function App() {
   return (
@@ -48,6 +52,10 @@ function App() {
         <Route path="/aula5/atividade8" element={<ListAula5 />} />
         <Route path="/aula5/atividade9" element={<List2Aula5 />} />
         <Route path="/aula5/atividade10" element={<ShapeEditor />} />
+        <Route path="/aula5/atividade11" element={<CounterList/>} />
+        <Route path="/aula5/atividade12" element={<List3Aula5 />} />
+        <Route path="/aula5/atividade13" element={<List4Aula5 />} />
+        <Route path="/aula5/atividade14" element={<BucketList />} />
       </Routes>
     </BrowserRouter>
   );
