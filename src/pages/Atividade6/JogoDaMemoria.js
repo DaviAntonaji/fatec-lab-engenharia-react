@@ -7,8 +7,7 @@ function shuffle(array) {
   let currentIndex = array.length,
     randomIndex;
 
-  while (currentIndex != 0) {
-    // Pick a remaining element.
+  while (currentIndex !== 0) {
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
 
@@ -22,21 +21,35 @@ function shuffle(array) {
 }
 
 const emojis = [
-  "🐶",
-  "🐱",
-  "🦊",
-  "🐻",
-  "🐼",
-  "🐨",
-  "🐷",
-  "🐮",
-  "🐔",
-  "🐸",
-  "🐙",
-  "🦑",
+    "🍏",
+    "🍎",
+    "🍐",
+    "🍊",
+    "🍋",
+    "🍌",
+    "🍉",
+    "🍇",
+    "🍓",
+    "🫐",
+    "🍈",
+    "🍒",
+    "🍑",
+    "🥭",
+    "🍍",
+    "🥥",
+    "🥝",
+    "🍅",
+    "🍆",
+    "🥑",
+    "🥦",
+    "🥬",
+    "🥒",
+    "🌶️",
+    "🫑",
 ];
 
 const JogoDaMemoria = () => {
+    
   const [inGame, setInGame] = useState(true);
   const [cartas, setCartas] = useState([]);
   const [selecionadas, setSelecionadas] = useState([]);
