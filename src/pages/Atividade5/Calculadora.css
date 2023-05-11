@@ -1,0 +1,100 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 8px;
+    padding: 16px;
+    background-color: #eee;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .result {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 24px;
+    color: #999;
+  }
+  
+  button {
+    grid-row: auto;
+    font-size: 24px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  button:active {
+    background-color: #ddd;
+  }
+  
+  .operator {
+    color: #fff;
+    background-color: #f66;
+  }
+  
+  .operator:active {
+    background-color: #f33;
+  }
+  
+  button[data-value="0"] {
+    grid-column: 2 / span 2;
+  }
+  
+  button[data-value="="] {
+    grid-row: 5 / span 2;
+  }
+  
+  button[data-value="clear"] {
+    background-color: #999;
+  }
+  
+  button[data-value="clear"]:active {
+    background-color: #666;
+  }
+  
+  button[data-value="delete"] {
+    color: #f66;
+  }
+  
+  button[data-value="delete"]:active {
+    color: #f33;
+  }
+  
+  @media (max-width: 480px) {
+    .calculator {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+    }
+  
+    .input {
+      font-size: 32px;
+    }
+  
+    .result {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 20px;
+      padding: 12px;
+    }
+  }
+  

@@ -28,6 +28,8 @@ import FormQuiz from "./pages/Aula6/FormQuiz";
 import FormTicket from "./pages/Aula6/FormTicket";
 import Accordion from "./pages/Aula6/Accordion";
 import Messenger from "./pages/Aula6/Messenger";
+import Calculadora from "./pages/Atividade5/Calculadora";
+import JogoDaMemoria from "./pages/Atividade6/JogoDaMemoria";
 
 function App() {
   return (
@@ -65,6 +67,10 @@ function App() {
         <Route path="/aula6/atividade2" element={<FormTicket/>} />
         <Route path="/aula6/atividade3" element={<Accordion/>} />
         <Route path="/aula6/atividade4" element={<Messenger/>} />
+        {/* Atividade 5 */}
+        <Route path="/atividade5" element={<Calculadora/>} />
+        {/* Atividade 6 */}
+        <Route path="/atividade6" element={<JogoDaMemoria/>} />
       </Routes>
     </BrowserRouter>
   );

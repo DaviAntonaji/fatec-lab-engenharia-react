@@ -99,6 +99,20 @@ function Home() {
             <Link to="/aula6/atividade4">Atividade 4: Messenger</Link>
           </div>
         </div>
+        <div className="offset icon-box">
+          <h3 className="title">Atividade 5</h3>
+          <div>
+            <Link to="/atividade5">Calculadora</Link>
+          </div>
+      
+        </div>
+        <div className="offset icon-box">
+          <h3 className="title">Atividade 6</h3>
+          <div>
+            <Link to="/atividade6">Jogo da memória</Link>
+          </div>
+      
+        </div>
       </div>
     </div>
   );

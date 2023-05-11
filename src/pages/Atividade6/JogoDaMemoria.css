@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .cartas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(25% - 10px);
+    height: 150px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .carta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carta span {
+    font-size: 72px;
+  }
+  
+  .carta.encontrada {
+    background-color: #8bc34a;
+    box-shadow: none;
+    cursor: default;
+  }
+  
+  .carta.encontrada span {
+    color: #fff;
+  }
+  
